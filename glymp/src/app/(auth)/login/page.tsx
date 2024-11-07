@@ -1,9 +1,9 @@
-import React from 'react'
+import { Button } from "@/components/ui/button"
 
-function page() {
+export default function Login() {
   return (
-    <div>Login</div>
+    <div>
+      <Button>Click me</Button>
+    </div>
   )
 }
-
-export default page
